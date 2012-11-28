@@ -72,17 +72,18 @@
 				}
 			?>
 						
-			<div class="formWrapper clearfix">
+			<div class="formWrapper">
 				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+				<p class="help">Send us an email to let us know how we can help you. Required fields are indicated by a <em>*</em>.</p>
 	      	<fieldset>
-	        	<legend>Send us an Email</legend>
+	        	<legend>Send An Email</legend>
 		        <div>
-		          <label for="realname">Name</label>
+		          <label for="realname">Name <em>*</em></label>
 		          <input class="formField" type="text" id="realname" name="realname" size="30" required="required" />
 		        </div>
 			
 		        <div>
-		          <label for="email">Email address</label>
+		          <label for="email">Email address <em>*</em></label>
 		          <input class="formField" type="email" id="email" name="email" size="30" required="required" placeholder="name@example.com" />
 		        </div>
 		  
@@ -92,20 +93,28 @@
 		        </div>
 		  
 			    	<div>
-		          <label for="message">Message</label>
+		          <label for="message">Message <em>*</em></label>
 		      		<textarea class="formField" id="message" name="message" rows="15" cols="20" required="required"></textarea>
 		      	</div>
 						
 						<div id="hiddenCaptcha">
 							<input type="text" name="hiddenCaptcha" value="" />
-						</div>
-						
-						<div class="submit">
-							<input class="submitButton" type="submit" name="Send" value="Send" />
-						</div>
+						</div>												
 		     	</fieldset>
+					
+					<div class="submit">
+							<input class="submitButton" type="submit" name="Send" value="Send" />
+					</div>
 				</form>				
 			</div> <!-- formWrapper -->
+			
+			<div class="phonenumWrapper">
+				<p class="help">Call us by phone to book an appointment.</p>
+				<fieldset id="phonefieldset">
+	        	<legend>Phone</legend>
+						<p class=phoneNumber>555-555-5555</p>
+				</fieldset>
+			</div>
 			
 		</div> <!-- content -->      
   </div> <!-- wrapper -->
