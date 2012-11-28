@@ -29,7 +29,7 @@
 	<meta charset="UTF-8">
   <title>EZRunPC.com - In Home Computer Services - Contact</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="contact2.css">
+  <link rel="stylesheet" href="contact.css">
 </head>
 
 <body id="contactPage">
