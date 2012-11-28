@@ -71,45 +71,7 @@
 			<?php 
 				}
 			?>
-			
-			<!-- use this with contact1.css
-			<div class="formWrapper">
-				<form action="<?php /*echo $_SERVER['PHP_SELF'];*/ ?>" method="post">
-	      	<fieldset>
-	        	<legend>Send us an Email</legend>
-		        <div class="row clearFix">
-		          <label for="realname">Name</label>
-		          <input class="formField" type="text" id="realname" name="realname" size="30" required/>
-		        </div>
-			
-		        <div class="row clearFix">
-		          <label for="email">Email address</label>
-		          <input class="formField" type="email" id="email" name="email" size="30" required/>
-		        </div>
-		  
-			      <div class="row clearFix">
-		          <label for="phone">Telephone</label>
-		          <input class="formField" type="text" id="phone" name="phone" size="30" />
-		        </div>
-		  
-			    	<div class="row clearFix">
-		          <label for="message">Message</label>
-		      		<textarea class="formField" id="message" name="message" rows="15" cols="20" required></textarea>
-		      	</div>
 						
-						<div id="captcha">
-							<input type="text" name="hiddenCaptcha" value="" />
-						</div>
-						
-						<div class="submit">
-							<input class="submitButton" type="submit" name="Send" value="Send" />
-						</div>
-					
-		     	</fieldset>	      	      		      	
-				</form>
-			</div>
-			-->
-			
 			<div class="formWrapper clearfix">
 				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 	      	<fieldset>
@@ -143,11 +105,9 @@
 						</div>
 		     	</fieldset>
 				</form>				
-			</div>
+			</div> <!-- formWrapper -->
 			
-			
-	</div> <!-- content -->
-        
+		</div> <!-- content -->      
   </div> <!-- wrapper -->
 
 </body>
