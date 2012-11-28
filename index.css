@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+		padding: 0;
+	}
+
+html {
+		font-size: 100%;
+	}
+
+body {
+		font: 80% Verdana, Arial, Helvetica, sans-serif;
+		background: #dddddd;
+	}
+
+p {
+		font: 1.1em/1.4 Verdana, Arial, Helvetica, sans-serif;
+		margin-bottom: 1em;
+	}
+
+/* ----- style the list -------- */
+#content ul {
+    list-style-type: none;
+		}
+
+#content ul ul {
+		border-left: 1px dotted #aaaaaa;
+		padding: 10px;
+		}
+  
+#content ul ul ul {
+		background: none;
+		border-left: 0;
+		}
+		
+#content li {
+		text-transform: uppercase;
+    padding-left: 20px;
+		font-weight: bold;
+		color: #666666;
+		}
+		
+#content li li {
+    text-transform: none;
+		background: url(images/list-square.gif) 0 2px no-repeat;
+		font-weight: normal;
+		color: #333333;    
+		}
+    
+#content li li li {
+  	background: url(images/list-hollow-square.gif) 0 2px no-repeat;
+	}
+
+/* -----------------------------*/
+
+#pageWrapper {
+		width: 740px;
+		margin: 0 auto;
+		}
+
+#masthead {
+		padding-top: 20px;
+		}
+
+#navContainer {
+		height: 30px;
+		border-bottom: 5px solid #24179b;
+		}
+
+#content {
+		padding: 10px;
+		background-color: #eeeeee;
+		}
+
+#navigation ul {
+		list-style-type: none;
+		}
+
+#navigation li {    
+    position: relative;		
+		float: left;
+		background: url(images/css-tab-rollover-image.gif) no-repeat 0 0;
+		width: 185px;
+		height: 30px;
+		}
+    
+#navigation a:link, #navigation a:visited {
+		font: bold 1.1em Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		color: #ffffff;
+		text-decoration: none;
+		display: block;
+		height: 21px;
+		padding: 9px 0px 0px 30px;
+		}
+
+#navigation a:hover {
+		background: url(images/css-tab-rollover-image.gif) 0 -40px;
+		}
+
+#navigation a:active {
+		background: url(images/css-tab-rollover-image.gif) 0 -80px;
+		}
+
+#homePage #homePageLink a:link, #homePage #homePageLink a:visited,
+#servicesPage #servicesPageLink a:link, #servicesPage #servicesPageLink a:visited,
+#contactPage #contactPageLink a:link, #contactPage #contactPageLink a:visited {
+		background: url(images/css-tab-rollover-image.gif) 0 -120px;
+		}
+    
+/* ------- style the submenu ------- */        
+#navigation li ul {
+    border-top: 1px solid #24179b;
+    width: 185px;
+    position:absolute;
+    opacity: 0.9;
+    
+    /* a large negative vlaue hides the submenu offscreen until needed,
+    but it is still available to screen readers */
+    left: -10000px; 
+}
+
+/* bring back the offscreen submenu on hover */
+#navigation li:hover ul {
+    display: block;
+    left: 0;
+}
+
+    /* ------- style the submenu items ------ */
+#navigation li li {
+    background: url(images/drop-down-menu-background.gif) repeat-y;
+    border-bottom: 1px solid #24179b;
+}
+
+#navigation li li a:link, #navigation li li a:visited {
+    text-transfrom: none;
+    padding-left: 10px;
+}
+
+#navigation li li a:hover, #navigation li li a:active {
+    background: none;
+    border-left: 5px solid #ff1808;
+}
+
+#navigation li li a:active {
+    border-left-color: #ed1c24;
+}
+
+#homePage #homePageLink li li a:link, #homePage #homePageLink li li a:visited,
+#servicesPage #servicesPageLink li li a:link, #servicesPage #servicesPageLink li li a:visited,
+#contactPage #contactPageLink li li a:link, #contactPage #contactPageLink li li a:visited {
+		background: none;
+		}
+    
+
