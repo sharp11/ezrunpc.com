@@ -34,18 +34,12 @@
 
 <body id="contactPage">
 <div id="pageWrapper">    
-	<div id="masthead">
-  	<div id="navContainer">
-    	<div id="navigation">            
-      	<?php require_once('navigation.php'); ?>
-      </div> <!-- navigation -->
-		</div> <!-- navContainer -->
-	</div> <!-- masthead -->
-    
-    
+		
+		<?php require_once('navigation.php'); ?>
+		  
 		<div id="content" class="clearfix">
 		
-				<h2>Contact EZRunPC.com</h2>
+				<h1>Contact EZRunPC.com</h1>
 				<br />
 					
 				<?php
@@ -71,7 +65,7 @@
 				<?php 
 						}
 				?>
-						
+					
 				<div class="formWrapper">
 						<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 										<p class="help">Send us an email and let us know how we can help you. Required fields are indicated by a <em>*</em>.</p>

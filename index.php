@@ -9,25 +9,20 @@
 
 <body id="homePage">
 <div id="pageWrapper">    
-    <div id="masthead">
-        <div id="navContainer">
-            <div id="navigation">            
-                <?php require_once('navigation.php'); ?>
-            </div> <!-- navigation -->
-        </div> <!-- navContainer -->
-    </div> <!-- masthead -->
-    
-    
-    <div id="content">
-        <h1>In Home Computer Services</h1>
+  
+  <?php require_once('navigation.php'); ?>        
+  
+  
+  <div id="content">
+      <h1>In Home Computer Services</h1>
+      
+      <p>Let us help you with your computer troubles. No need to pack up your computer
+      and drag it to the store, just to get an estimate days later. We'll come to you and,
+      in most cases, fix the problem on site. We pride ourselves on personalized service
+      with attention to detail and efficiency.</p>
+  </div> <!-- content -->
         
-        <p>Let us help you with your computer troubles. No need to pack up your computer
-        and drag it to the store, just to get an estimate days later. We'll come to you and,
-        in most cases, fix the problem on site. We pride ourselves on personalized service
-        with attention to detail and efficiency.</p>
-    </div> <!-- content -->
-        
-  </div> <!-- wrapper -->
+</div> <!-- wrapper -->
 
 </body>
 </html>
