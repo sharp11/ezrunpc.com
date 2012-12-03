@@ -76,6 +76,10 @@ body {
     background: -moz-linear-gradient(top, #a5c9d9, #2c52ab);
     background: -ms-linear-gradient(top, #a5c9d9, #2c52ab);
     background: -o-linear-gradient(top, #a5c9d9, #2c52ab);
+    
+    /* IE only */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5c9d9', endColorstr='#2c52ab');
+    
     background-image: -ms-linear-gradient(top, #a5c9d9 0%, #2c52ab 100%);
     -webkit-box-shadow: rgba(000,000,000,0.3) 0 3px 3px;
     -moz-box-shadow: rgba(000,000,000,0.3) 0 3px 3px;
