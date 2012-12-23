@@ -2,8 +2,8 @@
 
 #servicesPage #content ul {
     list-style-type: none;
-    padding-left: 1.5em;
-    list-style-position: inside;
+    padding-left: 2.5em;
+    /*list-style-position: inside;*/    
 }
 
 
@@ -14,7 +14,6 @@
 		
 #servicesPage #content li {
     text-transform: uppercase;
-    padding-left: 20px;
     font-weight: bold;
     color: #4c4c4c;    
 		}
@@ -38,14 +37,14 @@
 }
 
 #networking {
-    list-style-image: url(images/network.ico);
+    list-style-image: url(images/network.gif);
 }
 
 #databackup {
     list-style-image: url(images/databackup.gif);
 }
 
-/* only allow top level li's to have an image */
+/* only allow top level list items to have an image */
 #servicesPage #content li li {
     list-style-image: none;
 }
