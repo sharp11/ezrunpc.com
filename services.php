@@ -23,7 +23,7 @@
                 <li>help with installing and using software</li>
                 <li>internet, email help</li>
                 <li>CD/DVD burning</li>
-                <li>setting up and installing devices (printers, scanners, hard drives, etc.)</li>
+                <li>set up and installation of peripherals(printers, scanners, hard drives, etc.)</li>
             </ul>
         </li>
       </ul>
@@ -52,10 +52,10 @@
       <ul>
         <li id="networking">Networking
           <ul>
-            <li>set up router</li>
-            <li>configure wireless network</li>
-            <li>recover lost wireless network keys</li>
-            <li>set up file and printer sharing with other computers</li>
+            <li>router setup</li>
+            <li>wireless network configuration</li>
+            <li>recovery of lost wireless network keys</li>
+            <li>file and printer sharing set up</li>
             <li>integrate devices into home network (game consoles, AV receivers, iPad/iPod, AppleTV, etc.)</li>                    
           </ul>
         </li>

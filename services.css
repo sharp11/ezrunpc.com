@@ -2,49 +2,53 @@
 
 #servicesPage #content ul {
     list-style-type: none;
-    padding-left: 2.5em;
-    /*list-style-position: inside;*/    
+    padding: 0;
+    margin: 0;    
 }
 
 
 #servicesPage #content ul ul {
     padding-bottom: 10px;
-		}
-  
-		
+}
+  		
 #servicesPage #content li {
+    background-repeat: no-repeat;
+    padding-left: 3em;
+    
     text-transform: uppercase;
     font-weight: bold;
     color: #4c4c4c;    
-		}
-		
-#servicesPage #content li li {
-    text-transform: none;
-    font-weight: normal;
-    color: #333333;    
-		}
-    
+}
+		    
 #general {
-    list-style-image: url(images/general.gif);
+    background-image: url(images/general.gif);
 }
 
 #maintenace {
-    list-style-image: url(images/maintenance.gif);
+    background-image: url(images/maintenance.gif);
 }
 
 #security {
-    list-style-image: url(images/security.gif);
+    background-image: url(images/security.gif);
 }
 
 #networking {
-    list-style-image: url(images/network.gif);
+    background-image: url(images/network.gif);
 }
 
 #databackup {
-    list-style-image: url(images/databackup.gif);
+    background-image: url(images/databackup.gif);
 }
 
-/* only allow top level list items to have an image */
 #servicesPage #content li li {
-    list-style-image: none;
+    /* only allow top level list items to have an image */    
+    /*list-style-image: none;*/
+    list-style-type: square;
+    list-style-position: inside;
+    
+    text-transform: none;
+    font-weight: normal;
+    color: #333333;
+        
+    padding-left: 1.5em;
 }
