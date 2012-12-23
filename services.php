@@ -64,7 +64,7 @@
       <ul>
         <li id="databackup">Data Backup
             <ul>
-              <li>Backup your precious data (photos, documets, music, videos, etc.)</li>
+              <li>Backup your precious data (photos, documents, music, videos, etc.)</li>
             </ul>
         </li>
       </ul>
